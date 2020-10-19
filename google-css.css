@@ -39,7 +39,7 @@ body{
   top: 2.5em;
   position: absolute;
   width: 20px;
-  heigth: 20px;
+  height: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }

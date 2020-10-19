@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.top-bar{
+  position: relative;
+  height: 80px;
+  padding-top: 10px;
+  top: -15px;
+  background-color: grey;
+  max-width: 100%;
+}
+.top-links{
+  position: absolute;
+  text-align: left;
+  padding: 20px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+#store{
+  left: 4em;
+}
+#gmail{
+  left: 110em;
+}
+#images{
+  left: 114em;
+}
+.dropdown-grid-element{
+  background-color: white;
+  height: 5px;
+  width: 5px;
+  top: 200px;
+  margin: 2px;
+}
+.dropdown-wrapper{
+  left: 113em;
+  top: 2.5em;
+  position: absolute;
+  width: 20px;
+  heigth: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
